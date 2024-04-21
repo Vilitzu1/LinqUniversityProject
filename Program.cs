@@ -9,6 +9,8 @@
             um.FemaleStudents();
             um.SortStudentsByAge();
             um.AllStudentsFromBejingTech();
+            //University name and student name ordered
+            um.StudentAndUniversityNameCollection();
 
             int[] someInts = { 30, 12, 4, 3, 12 };
             IEnumerable<int> sortedInts = from i in someInts orderby i select i;
